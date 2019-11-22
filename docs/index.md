@@ -38,4 +38,11 @@ save_data_to_file(strFileName, lstPet)
 
 print(read_data_from_file(strFileName))
 ```
-Running Assignment07.py in Pycharm displays as follows:
+
+Running Assignment07.py in PyCharm displays as follows:  
+
+![Script in PyCharm](https://github.com/eldonsdata/IntroToPython-Python-Mod07/blob/master/docs/Pickle.png "Script in PyCharm")
+
+Below is how the pickled input from the PetData.dat file appears in Notepad:
+
+
