@@ -45,4 +45,24 @@ Running Assignment07.py in PyCharm displays as follows:
 
 Below is how the pickled input from the PetData.dat file appears in Notepad:
 
+![Pickled Data in Notepad](https://github.com/eldonsdata/IntroToPython-Python-Mod07/blob/master/docs/PetData.png "Pickled Data in Notepad")
+
+## Exception Handling  
+If Python encounters an error it causes the current python script to stop and raise an exception message. Exception handling allows the developer to anticipate and intercept errors to prevent a program from crashing. Additionally, through exception handling the developer can control the error message displayed and craft a message that is more user friendly than the default program language intended for developers. The below article from the webpage Real Python has a number of examples that are helpful in understanding how to use and create custom exceptions.   
+https://realpython.com/python-exceptions/  
+
+A good way to anticipate what errors can benefit from error handling is to try to make errors occur when testing your code. In the above example regarding pet data, if the user inputs character data into the pet’s age variable (intAge) a ValueError exception will occur. To avoid this happening, a try-except clause can be used to raise a ValueError exception, so the user will know the correct data format. Example below:
+
+```
+try:
+    strType = str(input("Enter pet type (cat, dog, etc.): "))
+    strName = str(input("Enter pet name: "))
+    intAge = int(input("Enter pet age: "))
+except ValueError:
+    print('Only use numbers for pet age')
+else:
+    print('Pet data pickled and saved to file')
+```
+
+
 
