@@ -1,4 +1,4 @@
-# Title: Picking & Exception Handling
+# Picking & Exception Handling
 **Dev:** *PShoup*  
 **Date:** *11.20.2019*
 
@@ -41,11 +41,11 @@ print(read_data_from_file(strFileName))
 
 Running Assignment07.py in PyCharm displays as follows:  
 
-![Script in PyCharm](https://eldonsdata.github.io/IntroToPython-Python-Mod07/blob/master/docs/Pickle.png "Script in PyCharm")
+![Script in PyCharm](https://eldonsdata.github.io/IntroToPython-Python-Mod07/Pickle.png "Script in PyCharm")
 
 Below is how the pickled input from the PetData.dat file appears in Notepad:
 
-![Pickled Data in Notepad](https://eldonsdata.github.io/IntroToPython-Python-Mod07/blob/master/docs/PetData.png "Pickled Data in Notepad")
+![Pickled Data in Notepad](https://eldonsdata.github.io/IntroToPython-Python-Mod07/PetData.png "Pickled Data in Notepad")
 
 ## Exception Handling  
 If Python encounters an error it causes the current python script to stop and raise an exception message. Exception handling allows the developer to anticipate and intercept errors to prevent a program from crashing. Additionally, through exception handling the developer can control the error message displayed and craft a message that is more user friendly than the default program language intended for developers. The below article from the webpage Real Python has a number of examples that are helpful in understanding how to use and create custom exceptions.   
